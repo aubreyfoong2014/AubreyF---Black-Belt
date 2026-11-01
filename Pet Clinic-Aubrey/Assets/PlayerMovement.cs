@@ -21,5 +21,7 @@ public class PlayerMovement : MonoBehaviour
         //Vector 3 is 3 set positions (x,y,z). 
         transform.position += (transform.right * horizontal * speed * Time.deltaTime) + (transform.forward * vertical * speed * Time.deltaTime); 
 
+        
+
     }
 }
